@@ -1,6 +1,0 @@
-PID 31329 received SIGSEGV for address: 0x1be004004000
-/home/simtuzi/Ohjelmointi/valokuva-osaaja/node_modules/segfault-handler/build/Release/segfault-handler.node(+0x3238)[0x7f4ece9ad238]
-/lib64/libc.so.6(+0x3ea30)[0x7f4ef6b70a30]
-/home/simtuzi/Ohjelmointi/valokuva-osaaja/node_modules/canvas/build/Release/canvas.node(_ZN9Context2d12GetImageDataERKN3Nan20FunctionCallbackInfoIN2v85ValueEEE+0x9ab)[0x7f4ece9ed75b]
-/home/simtuzi/Ohjelmointi/valokuva-osaaja/node_modules/canvas/build/Release/canvas.node(+0x2bed2)[0x7f4ece9dced2]
-/home/simtuzi/Ohjelmointi/valokuva-osaaja/node_modules/electron/dist/electron --enable-crashpad .(+0x340025a)[0x55bfeaf2625a]
