@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link href="./styles.css" rel="stylesheet">
+    <title>Face pasta</title>
+  </head>
+  <body>
+    <div id="device-list">
+      <div id="name-dev">
+        <article>
+          <header>Paikat</header>
+          <ul id="list-dev">
+          <!-- Tietoa tulee tähän -->
+          <!-- <li id="selectable-device-num-${number}"></li>.. -->
+          </ul>
+        </article>
+      </div>
+    </div>
+    <div id="file-menu">
+      <button id="file-menu-select">Valitse kansio</button>
+      <button id="do-img">tee</button>
+    </div>
+    <nav>
+      <div id="fast-setup-settings">
+        <input type="checkbox" id="scan-automatically">
+        <label for="scan-automatically">Skannaa muistikortin sisältö automaattisesti</label>
+      </div>
+    </nav>
+    <div id="picture-selector">
+    </div>
+    <div>
+      We are using Node.js <span id="node-version"></span>,
+      Chromium <span id="chrome-version"></span>,
+      and Electron <span id="electron-version"></span>.
+      <!-- You can also require other files to run in this process -->
+      <script src="./renderer.js"></script>
+      <script src="./DiskUtility.js"></script>
+      <script src="./src/initialiseDB.js"></script>
+    </div>
+    <template id="fileManager">
+       <ul class="dev-filenames">
+       </ul>
+    </template>
+    <template id="file-list">
+      <li class="dev-filenames"></li>
+    </template>
+  </body>
+</html>

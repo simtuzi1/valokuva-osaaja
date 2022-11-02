@@ -1,0 +1,43 @@
+/* styles.css */
+@font-face{
+   font-family: plexSansRegular;
+   src: url(./resources/IBM_Plex_Sans/IBMPlexSans-Regular.ttf);
+}
+
+body{
+    background-color: #2e2e2e;
+    line-height: 1.4;
+}
+/* Overrides button element */
+button{
+    font-family: plexSansRegular;
+    font-size: 16px;
+}
+#device-list{
+    display: flex;
+    cursor:pointer;
+    background-color: #131919;
+}
+#directory-list > li {
+    color: #f0e7e4;
+}
+html {
+    font-size: 16px;
+    font-family: plexSansRegular;
+}
+input {
+    font-family: plexSansRegular;
+    font-size: 16px;
+}
+nav{
+    background-color: #ffffff;
+    color: #191919;
+}
+#name-dev{
+    color:#a3a3a3;
+    padding: 2em;
+    border-radius: 1.435em ;
+}
+#picture-selector > img {
+    padding: 1.4em;
+}
