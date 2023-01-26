@@ -14,7 +14,7 @@
   "author": "Veli Lehto, Krister Timonen",
   "license": "GPL-3.0",
   "devDependencies": {
-    "electron": "^20.0.0",
+    "electron": "^22.1.0",
     "electron-rebuild": "^3.2.9"
   },
   "dependencies": {
